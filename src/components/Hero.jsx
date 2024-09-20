@@ -6,8 +6,8 @@ import { AiOutlineDollar } from "react-icons/ai";
 export default function Hero() {
     return (
         <div>
-            <div className="flex flex-row justify-evenly items-center p-16">
-                <div className="flex flex-col">
+            <div className="flex justify-evenly items-center p-16">
+                <div>
                     <h1 className="font-bold text-5xl py-8">
                         <span className="px-2 bg-yellow-400">your</span> trash
                         is
@@ -20,40 +20,23 @@ export default function Hero() {
                         shop now
                     </h1>
                 </div>
-                <img src="https://img.freepik.com/free-photo/selective-focus-shot-sunglasses-white-hat-sandy-beach_181624-31284.jpg?t=st=1726184213~exp=1726187813~hmac=f5bf55d30026edeef2d0be1c39af2170c53a82a7576e2a67e188524ad24d37b8&w=540" />
+                <img src="https://img.freepik.com/free-photo/selective-focus-shot-sunglasses-white-hat-sandy-beach_181624-31284.jpg" />
             </div>
-            <div className="flex flex-row justify-between w-8/12 mx-auto items-center">
-                <div className="border-4 border-black w-[250px] h-[210px] text-center text-2xl py-6">
-                    <AiOutlineCloudUpload
-                        size={"8rem"}
-                        style={{
-                            verticalAlign: "middle",
-                            margin: "0 auto",
-                            display: "block",
-                        }}
-                    />
+            <div className="flex justify-between w-8/12 mx-auto items-center">
+                <div
+                    className="border-4 border-black 
+                w-[250px] h-[210px] 
+                text-center text-2xl py-6"
+                >
+                    <AiOutlineCloudUpload size={"8rem"} className="mx-auto" />
                     upload
                 </div>
                 <div className="border-4 border-black w-[250px] h-[210px] text-center text-2xl py-6">
-                    <TbMessages
-                        size={"8rem"}
-                        style={{
-                            verticalAlign: "middle",
-                            margin: "0 auto",
-                            display: "block",
-                        }}
-                    />
+                    <TbMessages size={"8rem"} className="mx-auto" />
                     settle
                 </div>
                 <div className="border-4 border-black w-[250px] h-[210px] text-center text-2xl py-6">
-                    <AiOutlineDollar
-                        size={"8rem"}
-                        style={{
-                            verticalAlign: "middle",
-                            margin: "0 auto",
-                            display: "block",
-                        }}
-                    />
+                    <AiOutlineDollar size={"8rem"} className="mx-auto" />
                     sell
                 </div>
             </div>
