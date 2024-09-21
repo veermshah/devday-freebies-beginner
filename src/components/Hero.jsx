@@ -20,7 +20,8 @@ export default function Hero() {
                         shop now
                     </h1>
                 </div>
-                <img src="https://img.freepik.com/free-photo/selective-focus-shot-sunglasses-white-hat-sandy-beach_181624-31284.jpg" />
+                <img src="https://img.freepik.com/free-photo/selective-focus-shot-sunglasses-white-hat-sandy-beach_181624-31284.jpg?t=st=1726897465~exp=1726901065~hmac=3a4dd7c008a6b1b82dcb5f1219f08a846199bc9133a3b6357f9d71c7ceaf4830&w=500" />
+                {/*adjust the w= so the image fits on your screen}*/}
             </div>
             <div className="flex justify-between w-8/12 mx-auto items-center">
                 <div
